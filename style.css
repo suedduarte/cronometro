@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color:#FFEBC2;
+    background-image: url(img/fundo2.png);
+}
+
+
+.cronometro{
+    margin-top: 13%;
+    background-color: #698faa;
+    box-shadow: rgba(0, 0, 0, 0.25) 15px 10px 20px;
+    border-radius: 2rem;
+    width: 25rem;
+    height: 15rem;
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #FFEBC2;
+}
+
+span{
+    font-size: 3rem;
+    font-family: 'digital-clock-font';  
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+}
+
+
+button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.15em solid #FFEBC2;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #FFEBC2;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0.5rem;
+    min-height: 3em;
+    min-width: 0;
+    outline: none;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   button:disabled {
+    pointer-events: none;
+}
+   
+   button:hover {
+    color: #fff;
+    background-color: #1e5b75;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 96.3%;
+    height: 2.5rem;
+    background-color: #9cb286;
+    font-size: 0.5rem;
+    padding: 1.5rem;
+
+}
+
